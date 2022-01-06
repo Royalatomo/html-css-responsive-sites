@@ -1,0 +1,61 @@
+/* Subscribe (Hot Deals) - Area */
+.subscribe{
+    padding: 4rem 0;
+    padding-bottom: 5rem;
+}
+
+/* Subscribe - Heading */
+.subscribe .section-heading{
+    margin-bottom: 3rem;
+}
+
+/* Subscribe - Form Container */
+.subscribe .form-area{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Form Container - Main Form */
+.subscribe .form-area .form{
+    display: flex;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Main Form - Email Box */
+.subscribe .form-area .form .email-box{
+    width: 75%;
+    border: none;
+    border: 2px solid var(--mainColor);
+    border-right: none;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+}
+.subscribe .form-area .form .email-box::placeholder{
+    color: black;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.subscribe .form-area .form .email-box:focus{
+    outline: none;
+}
+
+/* Main Form - Submit Button */
+.subscribe .form-area .form .submit-button{
+    width: 25%;
+    min-width: 105px;
+    text-transform: uppercase;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    background: transparent;
+    border: 2px solid var(--mainColor);
+    transition: var(--transition);
+}
+.subscribe .form-area .form .submit-button:hover{
+    cursor: pointer;
+    background-color: var(--mainColor);
+    color: white;
+}

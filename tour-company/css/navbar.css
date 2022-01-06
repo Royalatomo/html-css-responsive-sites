@@ -1,0 +1,126 @@
+/* Navbar - Area, Navbar-Links - Area */
+.navbar-holder .navbar, .navbar-holder .navbar-links{
+    background-color: #f7f7f7;
+}
+
+/* Navbar - Area */
+.navbar-holder .navbar{
+    display: flex;
+    height: 11vh;;
+    min-height: 60px;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.stick-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f7f7f7;
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    animation-name: fixingNav;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+}
+
+/* Navbar - Brand Name Logo */
+.navbar-holder .navbar .hamburger{
+    font-size: 1.5rem;
+    color: var(--mainColor);
+    transition: var(--transition);
+}
+.navbar-holder .navbar .hamburger:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+/* Navbar - Hidden Links Container, Hidden Social Icons Container */
+.navbar-holder .navbar .social-hidden-icons, .navbar-holder .navbar .navbar-hidden-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navbar - Hidden Social Icons Container */
+.navbar-holder .navbar .navbar-hidden-icons{
+    list-style: none;
+}
+
+/* Navbar - Hidden Link */
+.navbar-holder .navbar .navbar-hidden-icons .nav-link a{
+    margin: 0 0.7rem;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    color: #222;
+    font-weight: bold;
+    height: 100%;
+    transition: var(--transition);
+}
+.navbar-holder .navbar .navbar-hidden-icons .nav-link a:hover{
+    color: var(--mainColor);
+}
+
+/* Navbar - Hidden Social Icon*/
+.navbar-holder .navbar .social-hidden-icons a{
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    color: var(--mainColor);
+    transition: var(--transition);
+}
+.navbar-holder .navbar .social-hidden-icons a:hover{
+    transform: translateY(-0.3rem);
+    color: gray;
+    cursor: pointer;
+}
+
+/* Navbar - Hidden Social Icons Container, Hidden Links Container, Hidden Social Icon */
+.navbar-holder .navbar .navbar-hidden-icons, .navbar-holder .navbar .social-hidden-icons, .navbar-holder .navbar .social-hidden-icons i{
+    display: none;
+}
+
+
+/* Navbar Links - Area(Hidden) */
+.navbar-holder .navbar-links{
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+/* Navbar Links - Area(Visible) */
+.navbar-holder .show-links{
+    height: 270px;
+    
+}
+
+/* Navbar Link - Single Link */
+.navbar-holder .navbar-links .nav-links-container .nav-link a{
+    display: block;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    color: #222;
+    font-weight: bold;
+    padding: 1.1rem 1.7rem;
+    height: 100%;
+    transition: var(--transition);
+}
+.navbar-holder .navbar-links .nav-links-container .nav-link a:hover{
+    cursor: pointer;
+    color: var(--mainColor);
+    transform: translateX(0.3rem);
+}
+.navbar-holder .navbar-links .nav-links-container .nav-link:hover{
+    background-color: #b4b4b4;
+}
+
+
+/* Animation - Fixed Nav Bar */
+@keyframes fixingNav {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

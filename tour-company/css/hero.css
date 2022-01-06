@@ -1,0 +1,57 @@
+/* Hero Element - Area */
+.hero-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--mainColor);
+    color: white;
+    height: calc(100vh - 11vh);
+    min-height: 445px;
+}
+
+/* Hero (Heading, Sub-heading, button) - Container */
+.hero-element .hero-banner{
+    padding: 0 2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+/* Hero Heading */
+.hero-element .hero-banner .heading{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-family: var(--headingFont);
+}
+
+/* Hero Sub-heading */
+.hero-element .hero-banner .sub-heading{
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 80%;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
+    line-height: 2;
+}
+
+/* Hero Explore Button */
+.hero-element .hero-banner .explore{
+    display: inline-block;
+    padding: 0.9rem 2rem;
+    border: 2px solid white;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color: white;
+    transition: var(--transition);
+
+}
+.hero-element .hero-banner .explore:hover{
+    color: var(--mainColor);
+    background-color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/hero.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/service.css">
+    <link rel="stylesheet" href="/css/featured.css">
+    <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/subscribe.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/mediaQ.css">
+
+    <!-- Title -->
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Navbar Container -->
+    <div class="navbar-holder">
+
+        <!-- Navbar -->
+        <div class="navbar">
+
+            <!-- Brand Name -->
+            <img src="/img/logo.svg" class="logo">
+            <!-- Handburger Menu -->
+            <i onclick="toggelLinks()" class="fas fa-bars hamburger"></i>
+
+            <!-- Links (Large Screen) -->
+            <ul class="navbar-hidden-icons">
+                <!-- NavBar Links -->
+                <li class="nav-link"><a href="#home">home</a></li>
+                <li class="nav-link"><a href="#about">about</a></li>
+                <li class="nav-link"><a href="#services">services</a></li>
+                <li class="nav-link"><a href="#features">features</a></li>
+                <li class="nav-link"><a href="#gallery">Gallery</a></li>
+            </ul>
+
+            <!-- Social Icons (Large Screen) -->
+            <div class="social-hidden-icons">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-squarespace"></a>
+            </div>
+        </div>
+
+        <!-- Navbar Links (Phone Screen) - Hamburger Menu -->
+        <div class="navbar-links">
+            <!-- Navbar Links - Container -->
+            <ul class="nav-links-container">
+                <!-- NavBar Links -->
+                <li class="nav-link"><a href="#home">home </a></li>
+                <li class="nav-link"><a href="#about">about</a></li>
+                <li class="nav-link"><a href="#services">services</a></li>
+                <li class="nav-link"><a href="#features">features</a></li>
+                <li class="nav-link"><a href="#gallery">gallery</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Hero Element -->
+    <div id="home" class="hero-element">
+        <!-- Text, Img, Button - Container -->
+        <div class="hero-banner">
+            <h1 class="heading">continue exploring</h1>
+            <p class="sub-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae explicabo debitis est autem dicta.</p>
+            <a href="/#feature" class="explore">explore tours</a>
+        </div>
+    </div>
+
+
+    <!-- About Section -->
+    <div id="about" class="about">
+        <!-- Section Heading -->
+        <h1 class="about-heading section-heading">about <span>us</span></h1>
+
+        <!-- Info, Image - Container -->
+        <div class="about-info-img-container">
+            
+            <!-- About Image -->
+            <div class="about-image">
+                <img src="/img/about.jpeg">
+            </div>
+
+            <!-- About Text, Button - Container -->
+            <div class="about-info">
+                <h3 class="about-info-heading">explore the difference</h3>
+                <p class="about-msg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quisquam harum nam cumque temporibus explicabo dolorum sapiente odio unde dolor?</p>
+                <p class="about-msg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quisquam harum nam cumque temporibus explicabo dolorum sapiente odio unde dolor?</p>
+                <a href="#" class="about-readmore">read more</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Services Area -->
+    <div id="services" class="services">
+        <!-- Section Heading -->
+        <h1 class="heading section-heading">our <span>services</span></h1>
+
+        <!-- Service Items Container -->
+        <div class="service-container">
+
+            <!-- Service Item -->
+            <div class="service-item">
+                <!-- Service Icon -->
+                <div class="logo">
+                    <i class="fas fa-wallet fa-fw"></i>
+                </div>
+
+                <!-- Service Text -->
+                <div class="text">
+                    <h3 class="service-title">saving money</h3>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia</p>
+                </div>
+            </div>
+
+            <!-- Service Item -->
+            <div class="service-item">
+                <!-- Service Icon -->
+                <div class="logo">
+                    <i class="fas fa-tree fa-fw"></i>
+                </div>
+
+                <!-- Service Text -->
+                <div class="text">
+                    <h3 class="service-title">endless hiking</h3>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia</p>
+                </div>
+            </div>
+
+            <!-- Service Item -->
+            <div class="service-item">
+                <!-- Service Logo -->
+                <div class="logo">
+                    <i class="fas fa-socks fa-fw"></i>
+                </div>
+
+                <!-- Service Text -->
+                <div class="text">
+                    <h3 class="service-title">amazing comfort</h3>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Featured-Tours Area -->
+    <div id="features" class="featured-tours">
+        <!-- Section Heading -->
+        <h1 class="heading section-heading">featured <span>tours</span></h1>
+
+        <!-- Tour Items Container -->
+        <div class="tour-container">
+            
+            <!-- Tour Item -->
+            <div class="tour-item">
+
+                <!-- Tour Image -->
+                <div class="tour-img">
+                    <img src="/img/tour-1.jpeg">
+                </div>
+
+                <!-- Tour Date -->
+                <h4 class="date-of-tour">August 14th, 2019</h4>
+
+                <!-- Tour Description -->
+                <div class="tour-description">
+                    <div class="tour-title">tibet adventure</div>
+                    <div class="tour-info">
+                        <!-- Country -->
+                        <span class="location">
+                            <span class="logo ">
+                                <i class="fas fa-map"></i>
+                            </span>
+                            <p class="country">China</p>
+                        </span>
+
+                        <!-- Price, time - container -->
+                        <div class="price-time">
+                            <p class="time">6 Days</p>
+                            <p class="price">From $2100</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour Item -->
+            <div class="tour-item">
+
+                <!-- Tour Image -->
+                <div class="tour-img">
+                    <img src="/img/tour-2.jpeg">
+                </div>
+
+                <!-- Tour Date -->
+                <h4 class="date-of-tour">October 1th, 2019</h4>
+
+                <!-- Tour Description -->
+                <div class="tour-description">
+                    <div class="tour-title">best of java</div>
+                    <div class="tour-info">
+                        <!-- Country -->
+                        <div class="location">
+                            <span class="logo ">
+                                <i class="fas fa-map"></i>
+                            </span>
+                            <p class="country">Indonesia</p>
+                        </div>
+
+                        <!-- Price, time - container -->
+                        <div class="price-time">
+                            <p class="time">10 Days</p>
+                            <p class="price">From $4100</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour Item -->
+            <div class="tour-item">
+
+                <!-- Tour Image -->
+                <div class="tour-img">
+                    <img src="/img/tour-3.jpeg">
+                </div>
+
+                <!-- Tour Date -->
+                <h4 class="date-of-tour">September 26th, 2019</h4>
+
+                <!-- Tour Description -->
+                <div class="tour-description">
+                    <div class="tour-title">explore hong kong</div>
+                    <div class="tour-info">
+                        <!-- Country -->
+                        <div class="location">
+                            <span class="logo ">
+                                <i class="fas fa-map"></i>
+                            </span>
+                            <p class="country">Hong Kong</p>
+                        </div>
+
+                        <!-- Price, time - container -->
+                        <div class="price-time">
+                            <p class="time">12 Days</p>
+                            <p class="price">From $3100</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour Item -->
+            <div class="tour-item">
+
+                <!-- Tour Image -->
+                <div class="tour-img">
+                    <img src="/img/tour-4.jpeg">
+                </div>
+
+                <!-- Tour Date -->
+                <h4 class="date-of-tour">December 5th, 2019</h4>
+
+                <!-- Tour Description -->
+                <div class="tour-description">
+                    <div class="tour-title">kenya highlights</div>
+                    <div class="tour-info">
+                        <!-- Country -->
+                        <div class="location">
+                            <span class="logo ">
+                                <i class="fas fa-map"></i>
+                            </span>
+                            <p class="country">Kenya</p>
+                        </div>
+
+                        <!-- Price, time - container -->
+                        <div class="price-time">
+                            <p class="time">22 Days</p>
+                            <p class="price">From $5400</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- All Tours - Button -->
+        <a href="#" class="all-tours-button">all tours</a>
+    </div>
+
+
+    <!-- Gallery Area -->
+    <div id="gallery" class="gallery">
+
+        <!-- Section Heading -->
+        <h1 class="section-heading">our <span>gallery</span></h1>
+
+        <!-- Pictures Container -->
+        <div class="pictures-container">
+
+            <!-- Image, Icon - Container -->
+            <div class="picture-area">
+                <img src="/img/tour-1.jpeg" class="picture">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <!-- Image, Icon - Container -->
+            <div class="picture-area">
+                <img src="/img/tour-2.jpeg" class="picture">
+                <i class="fas fa-search"></i>
+            </div>
+            
+            <!-- Image, Icon - Container -->
+            <div class="picture-area">
+                <img src="/img/tour-3.jpeg" class="picture">
+                <i class="fas fa-search"></i>
+            </div>
+            
+            <!-- Image, Icon - Container -->
+            <div class="picture-area">
+                <img src="/img/tour-4.jpeg" class="picture">
+                <i class="fas fa-search"></i>
+            </div>
+            
+            <!-- Image, Icon - Container -->
+            <div class="picture-area">
+                <img src="/img/tour-5.jpeg" class="picture">
+                <i class="fas fa-search"></i>
+            </div>
+            
+            <!-- Image, Icon - Container -->
+            <div class="picture-area">
+                <img src="/img/tour-6.jpeg" class="picture">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Hot Deals -->
+    <div class="subscribe">
+
+        <!-- Section Heading -->
+        <h1 class="section-heading">hot <span>deals</span></h1>
+
+        <!-- Form Container -->
+        <div class="form-area">
+            <!-- Main Form -->
+            <form class="form" action="">
+                <!-- Email Box -->
+                <input placeholder="your email" type="email" class="email-box">
+                <!-- Submit Button -->
+                <button type="submit" class="submit-button">submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+
+        <!-- Social Icons, Text - Container -->
+        <div class="social-text-container">
+
+            <!-- Social Icon - Container -->
+            <div class="social-icon-container">
+                <!-- Social Icons -->
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-squarespace"></i>
+            </div>
+
+            <!-- Text - Container -->
+            <div class="text-container">
+                <p class="copyright">copyright &copy; rawats group. all rights reserved</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Custom Js -->
+    <script src="/js/script.js"></script>
+
+    <!-- FontAwesome Icon Kit -->
+    <script src=https://kit.fontawesome.com/a0db2215cb.js crossorigin=anonymous></script>
+</body>
+</html>

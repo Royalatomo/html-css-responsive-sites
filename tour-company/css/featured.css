@@ -1,0 +1,107 @@
+/* Featured-tours - Area */
+.featured-tours{
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Featured-tours - Tours Container */
+.featured-tours .tour-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Tours Container - Tour Item  */
+.featured-tours .tour-container .tour-item{
+    position: relative;
+    font-family: "Lato", sans-serif;
+    padding-bottom: 1rem;
+    box-shadow: 2px 5px 3px 0px rgb(0 0 0 / 25%);
+    margin-bottom: 5rem;
+    transition: var(--transition);
+    transition-timing-function: ease-in-out;
+}
+.featured-tours .tour-container .tour-item:hover{
+    box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+/* Tour Item - Image  */
+.featured-tours .tour-container .tour-item .tour-img img{
+    width: 100%;
+}
+
+/* Tour Item - Date Of Tour  */
+.featured-tours .tour-container .tour-item .date-of-tour{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--mainColor);
+    padding: 0.6rem 1.1rem;
+    font-weight: 100;
+}
+
+/* Tour Item - Tour Description  */
+.featured-tours .tour-container .tour-item .tour-description{
+    padding: 1rem;
+}
+
+
+/* Tour Description - Tour Title */
+.featured-tours .tour-container .tour-item .tour-description .tour-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 1rem;
+}
+
+
+/* Tour (location, price, time) - Container */
+.featured-tours .tour-container .tour-item .tour-description .tour-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Tour Location Container */
+.featured-tours .tour-container .tour-item .tour-description .tour-info .location{
+    display: flex;
+    color: var(--mainColor);
+    margin-right: 5px;
+}
+
+/* Tour Location Container - Country */
+.featured-tours .tour-container .tour-item .tour-description .tour-info .location .country{
+    margin-left: 0.4rem;
+}
+
+
+/* Tour (Price, Time) - Container */
+.featured-tours .tour-container .tour-item .tour-description .tour-info .price-time{
+    color: #838383;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+}
+.featured-tours .tour-container .tour-item .tour-description .tour-info .price-time .time{
+    margin-bottom: 3px;
+}
+
+
+/* All Tours Button */
+.featured-tours .all-tours-button{
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    background-color: var(--mainColor);
+    color: white;
+    padding: 0.9rem 1.4rem;
+    border: 0.2rem solid var(--mainColor);
+    transition: var(--transition);
+    font-weight: bold;
+}
+.featured-tours .all-tours-button:hover{
+    background-color: white;
+    color: var(--mainColor);
+}

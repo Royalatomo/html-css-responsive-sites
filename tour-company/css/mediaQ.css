@@ -1,0 +1,260 @@
+/* This or Above (Width) */
+
+@media screen and (min-width: 650px){
+    /* Service (Items) - Container */
+    .services .service-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    /* Service Container - Item Container */
+    .services .service-container .service-item{
+        width: 50%;
+    }
+
+
+    /* Gallery - Pictures Container */
+    .gallery .pictures-container{
+        justify-content: space-evenly;
+    }
+
+    /* Pictures Container - Image Holder */
+    .gallery .pictures-container .picture-area{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 720px){
+    /* Navbar - Area */
+    .navbar-holder .navbar{
+        height: 10vh;
+    }
+
+
+    /* Hero Element - Area */
+    .hero-element{
+        background-image:  linear-gradient(rgba(63, 208, 212, 0.7), rgba(0, 0, 0, 0.7)), url('/img/main.jpeg') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+    }
+
+    /* Hero Element - Heading */
+    .hero-element .hero-banner .heading{
+        font-size: 4rem;
+    }
+
+
+    /* Featured-tours - Tours Container */
+    .featured-tours .tour-container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    /* Tours Container - Tour Item  */
+    .featured-tours .tour-container .tour-item{
+        width: 43%;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    /* Navbar - Area */
+    .navbar-holder .navbar{
+        justify-content: space-around;
+    }
+
+    /* Navbar - Hamburger Icon */
+    .navbar-holder .navbar i{
+        display: none;
+    }
+
+    /* Navbar - Hidden Link Icon(Comp), Hidden Social Icons Container */
+    .navbar-holder .navbar .navbar-hidden-icons, .navbar-holder .navbar .social-hidden-icons{
+        display: flex;
+    }
+    /* Navbar - Hidden Social Icon */
+    .navbar-holder .navbar .social-hidden-icons i{
+        display: inline-block;
+    }
+
+    /* Navbar-Links - Area(Phone) */
+    .navbar-holder .navbar-links{
+        display: none;
+    }
+
+
+    /* About (Image, Info) - Container */
+    .about .about-info-img-container{
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 2rem;
+        max-width: 1170px;
+        margin: 0rem auto 2rem auto;
+    }
+
+    /* About Image - Container */
+    .about .about-info-img-container .about-image{
+        width: 48%;
+        min-width: 26rem;
+        max-width: 470px;
+        margin-bottom: 0rem;
+        align-self: center;
+        margin-top: 1rem;
+        margin-left: 2%;
+    }
+
+    /* About Info - Container */
+    .about .about-info-img-container .about-info{
+        width: 45%;
+    }
+
+
+    /* Service (Items) - Container */
+    .services .service-container{
+        width: 100%;
+    justify-content: center;
+    }
+
+    /* Service Container - Item Container */
+    .services .service-container .service-item{
+        display: flex;
+        width: 30%;
+        max-width: 21rem;
+        margin-left: 2rem;
+    }
+
+    /* Service Item (titile, description) - Container */
+    .services .service-container .service-item .text{
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    /* Service Item - Title */
+    .services .service-container .service-item .text .service-title{
+        margin-bottom: 0.5rem;
+    }
+
+    /* Service Item - Description */
+    .services .service-container .service-item .text .descriptions{
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width: 1170px){
+    /* About Info - Container */
+    .about .about-info-img-container .about-info{
+        width: 50%;
+    }
+
+    /* About Image - Background Lining */
+    .about .about-info-img-container .about-image::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        border: 0.5rem solid var(--mainColor);
+        position: absolute;
+        top: -2rem;
+        left: -2.5rem;
+        z-index: -1;
+    }
+
+
+    /* Tours Container - Tour Item  */
+    .featured-tours .tour-container .tour-item{
+        width: 30%;
+        margin-right: auto;
+    }
+
+
+    /* Pictures Container - Image Holder */
+    .gallery .pictures-container .picture-area{
+        width: 30%;
+    }
+}
+
+
+/* This or Below (Width) */
+@media screen and (max-width: 340px) {
+    /* Tour (Price, Time) - Container */
+    .featured-tours .tour-container .tour-item .tour-description .tour-info .price-time{
+        letter-spacing: 0rem;
+    }
+    
+    
+    /* Form Container - Main Form */
+    .subscribe .form-area .form{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Main Form - Email Box */
+    .subscribe .form-area .form .email-box{
+        width: 100%;
+        border: 2px solid var(--mainColor);
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        padding-top: 0.6rem;
+        margin-bottom: 0.7rem;
+    }
+    .subscribe .form-area .form .email-box::placeholder{
+        font-size: 0.8rem;
+    }
+
+    /* Main Form - Submit Button */
+    .subscribe .form-area .form .submit-button{
+        width: fit-content;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 360px){
+    /* Hero Heading */
+    .hero-element .hero-banner .heading{
+        font-size: 2.5rem;
+    }
+
+    /* Hero Sub-heading */
+    .hero-element .hero-banner .sub-heading{
+        letter-spacing: 0.1rem;
+        line-height: 2;
+    }
+    
+    /* Hero Explore Button */
+    .hero-element .hero-banner .explore{
+        padding: 0.7rem 1.4rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    /* Hero (Heading, Sub-heading, button) - Container */
+    .hero-element .hero-banner{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 700px){
+    /* Heading For All Sections */
+    .section-heading{
+        margin-bottom: 3rem;
+    }
+}
+
+
+/* This or Below (Height) */
+@media screen and (max-height: 335px){
+    /* Navbar - Stick Navbar */
+    .stick-nav{
+        position: relative;
+        width: 100%;
+        background: #f7f7f7;
+        box-shadow: none;
+        z-index: 0;
+        animation-name: none;
+    }
+}

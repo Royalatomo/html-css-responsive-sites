@@ -1,0 +1,53 @@
+/* Gallery - Area */
+.gallery{
+    margin-top: 3rem;
+    padding: 5rem 0;
+    background: #e0e0e0;
+}
+
+
+/* Gallery - Pictures Container */
+.gallery .pictures-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Pictures Container - Image Holder */
+.gallery .pictures-container .picture-area{
+    width: 90%;
+    margin: 1rem 0;
+    box-shadow: 4px 8px 7px 2px rgb(0 0 0 / 60%);
+    background-color: var(--mainColor);
+    position: relative;
+    transition: var(--transition);
+}
+.gallery .pictures-container .picture-area:hover{
+    box-shadow: 4px 8px 7px 2px rgb(0 0 0 / 100%);
+    cursor: pointer;
+}
+
+
+/* Pictures Image Holder - Magnifying Icon */
+.gallery .pictures-container .picture-area i{
+    display: none;
+    transition: var(--transition);
+}
+.gallery .pictures-container .picture-area:hover i{
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: white;
+    font-size: 3rem;
+}
+
+/* Pictures Image Holder - Image */
+.gallery .pictures-container .picture-area .picture{
+    width: 100%;
+    display: block;
+    transition: var(--transition);
+}
+.gallery .pictures-container .picture-area:hover .picture{
+    opacity: 0.5;
+}

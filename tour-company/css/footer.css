@@ -1,0 +1,48 @@
+/* Footer - Area */
+.footer{
+    padding: 5rem 0;
+    background: #222;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Footer (Social icon, text) - Container */
+.footer .social-text-container{
+    text-align: center;
+    width: 85%;
+}
+
+
+/* Footer Social Icon Container */
+.footer .social-text-container .social-icon-container{
+    font-size: 2rem;
+    width: 150px;
+    max-width: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+
+/* Footer Social Icon Container - Icon */
+.footer .social-text-container .social-icon-container i{
+    transition: var(--transition);
+}
+.footer .social-text-container .social-icon-container i:hover{
+    color: var(--mainColor);
+    cursor: pointer;
+}
+
+
+/* Footer Text Container */
+.footer .social-text-container .text-container{
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 0.3rem;
+    line-height: 1.7;
+    justify-content: center;
+}

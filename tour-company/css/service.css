@@ -1,0 +1,48 @@
+/* Services - Area */
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dfdfdf;
+    padding: 5rem 0;
+}
+
+
+/* Service (Items) - Container */
+.services .service-container{
+    text-align: center;
+    width: 85%;
+}
+
+/* Service Container - Item Container */
+.services .service-container .service-item{
+    margin-bottom: 2.5rem;
+}
+
+/* Service Item - Logo Container */
+.services .service-container .service-item .logo{
+    display: inline-block;
+    font-size: 2rem;
+    background-color: var(--mainColor);
+    padding: 0.7rem;
+    margin-bottom: 1.5rem;
+    height: fit-content;
+}
+
+/* Service Item - Title */
+.services .service-container .service-item .text .service-title{
+    font-size: 1.2rem;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-family: var(--headingFont);
+    margin-bottom: 1.5rem;
+}
+
+/* Service Item - Description */
+.services .service-container .service-item .text .descriptions{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-weight: 300;
+}

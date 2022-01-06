@@ -1,0 +1,68 @@
+/* About - Area */
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 2rem;
+}
+
+
+/* About (Image, Info) - Container */
+.about .about-info-img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* About Image - Container */
+.about .about-info-img-container .about-image{
+    width: 85vw;
+    margin-bottom: 4rem;
+    position: relative;
+}
+/* About Image */
+.about .about-info-img-container .about-image img{
+    width: 100%;
+    
+}
+
+
+/* About Info - Container */
+.about .about-info-img-container .about-info{
+    width: 90%;
+}
+
+/* About Info - Heading */
+.about .about-info-img-container .about-info .about-info-heading{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    line-height: 1.5;
+    color: #222;
+    margin-bottom: 1.5rem;
+}
+
+/* About Info - Messages */
+.about .about-info-img-container .about-info .about-msg{
+    margin-bottom: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+}
+
+/* About Info - Read More Button */
+.about .about-info-img-container .about-info .about-readmore{
+    color: white;
+    border: 2px solid var(--mainColor);
+    background-color: var(--mainColor);
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    letter-spacing: 0.2rem;
+    display: inline-block;
+    transition: var(--transition);
+    font-weight: bold;
+}
+.about .about-info-img-containers .about-info .about-readmore:hover{
+    color: var(--mainColor);
+    background-color: transparent;
+}

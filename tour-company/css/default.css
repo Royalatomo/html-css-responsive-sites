@@ -1,0 +1,39 @@
+/* Importing Font */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppins&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+    
+    /* variables */
+    --mainColor: #3fd0d4;
+    --transition: all 0.3s linear;
+    --mainSpacing: 0.25rem;
+    --headingFont: "Poppins", sans-serif;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Heading For All Sections */
+.section-heading{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.6rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 5rem;
+    color: #222;
+}
+.section-heading span{
+    color: var(--mainColor);
+}

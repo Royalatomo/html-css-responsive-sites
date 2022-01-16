@@ -1,0 +1,115 @@
+/* Section Heading Container */
+.project-area .section-heading{
+    text-align: center;
+    margin-bottom: 3rem;
+    background: #fffaeb;
+    padding: 3rem 0rem;
+}
+
+/* Section Heading */
+.project-area .section-heading .section-heading-text{
+    font-size: 3rem !important;
+}
+
+
+/* Projects Container */
+.project-area .project-container{
+    margin-bottom: 3rem !important;
+    text-align: left;
+    padding: 1.5rem;
+    display: grid;
+    row-gap: 3rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 3rem;
+}
+
+
+/* Project Container - Single Item */
+.project-area .project-container .project-item {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 60%);
+    position: relative;
+    background-color: hsl(210, 36%, 96%);
+}
+
+
+/* Project Single Item - Project Img */
+.project-area .project-container .project-item .project-front .project-img {
+    width: 100%;
+    object-fit: cover;
+    height: 13rem;
+}
+
+/* Project Single Item - Project Info */
+.project-area .project-container .project-item .project-front .project-info {
+    padding: 1rem;
+    padding-top: 2rem;
+    position: relative;
+}
+
+/* Project Single Item - Project Logo */
+.project-area .project-container .project-item .project-front .project-info .project-logo{
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    font-size: 2rem;
+    background: var(--mainColor);
+    transform: translate(-50%, -50%);
+    padding: 0.6rem;
+    border-radius: 50%;
+    color: #5e3e3e;
+    font-size: 1.75rem;
+    width: 4rem;
+    height: 4rem;
+    display: grid;
+    place-items: center;
+    border: 0.375rem solid hsl(210, 36%, 96%);
+}
+
+/* Project Single Item - Project Info Title */
+.project-area .project-container .project-item .project-front .project-info .project-title {
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+/* Project Single Item - Project Info Text */
+.project-area .project-container .project-item .project-front .project-info .project-text {
+    word-spacing: 0.1rem;
+    margin-bottom: 1.7rem;
+    color: hsl(210, 22%, 49%);
+}
+
+/* Project Single Item - Project Info (Git Logo, Source Cod) */
+.project-area .project-container .project-item .project-front .project-info .project-foot {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* Project Single Item - Project Info Git Logo */
+.project-area .project-container .project-item .project-front .project-info .project-foot .project-link {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    color: var(--mainColor);
+}
+
+/* Project Single Item - Project Info Read time */
+.project-area .project-container .project-item .project-front .project-info .project-foot .read-time {
+    color: var(--mainColor);
+    text-transform: capitalize;
+}
+
+
+/* NavBar */
+.stick-nav{
+    position: relative;
+}

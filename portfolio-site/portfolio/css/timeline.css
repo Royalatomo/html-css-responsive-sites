@@ -1,0 +1,101 @@
+/* Timeline - Area */
+.timeline {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+
+/* Achievements Container */
+.timeline .achievements-container {
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    max-width: 700px;
+    margin-top: 3rem;
+}
+
+/* Achievements Container - first achievement */
+.timeline .achievements-container .first-container {
+    border-top: none !important;
+    border-top-right-radius: 0 !important;
+}
+
+/* Achievements Container - last achievement */
+.timeline .achievements-container .last-container {
+    border-bottom-left-radius: 0 !important;
+}
+
+
+/* Achievements Container - Right Line Container, Left Line Container*/
+.timeline .achievements-container .right-container,
+.timeline .achievements-container .left-container {
+    padding: 4rem 0rem;
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+/* Achievements Container - Right Line Container*/
+.timeline .achievements-container .right-container {
+    border-right: 2px dashed var(--mainColor);
+    border-top: 2px dashed var(--mainColor);
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+    margin-right: 1rem;
+    margin-left: 3.5rem;
+    padding-right: 0.9rem;
+}
+
+/* Achievements Container - Left Line Container*/
+.timeline .achievements-container .left-container {
+    border-left: 2px dashed var(--mainColor);
+    border-top: 2px dashed var(--mainColor);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin-right: 3rem;
+    margin-left: 2rem;
+    padding-left: 2rem;
+}
+
+
+/* Achievements - Individual Achievement's Year */
+.timeline .achievements-container .achievement-year {
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.5rem;
+    color: hsl(209, 61%, 16%);
+}
+
+/* Achievement COntainer - Individual Achievement Description */
+.timeline .achievements-container .achievement-description {
+    color: hsl(210, 22%, 49%);
+    font-size: 0.85rem;
+    font-family: "Open Sans", sans-serif;
+    word-spacing: 0.1rem;
+    line-height: 1.5;
+}
+
+
+/* Achievements - Individual Achievement Number */
+.timeline .achievements-container .left-container .number-left,
+.timeline .achievements-container .right-container .number-right {
+    position: absolute;
+    top: 50%;
+    background-color: var(--mainColor);
+    padding: 0.4rem 0.7rem;
+    border-radius: 50%;
+    color: hsl(43, 86%, 17%);
+}
+
+/* Left Line Container - Individual Achievement Number */
+.timeline .achievements-container .left-container .number-left {
+    top: 40%;
+    right: 100%;
+    transform: translate(50%, 50%);
+}
+
+/* Right Line Container - Individual Achievement Number */
+.timeline .achievements-container .right-container .number-right {
+    left: 100%;
+    transform: translate(-50%, -50%);
+}

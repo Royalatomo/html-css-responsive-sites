@@ -1,0 +1,104 @@
+/* Skills - Area */
+.skills {
+    background-color: #fceec5;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+
+/* Skills (Front/Back end) - Container */
+.skills .skill-items-container {
+    text-align: left;
+    padding: 0 2rem;
+    display: grid;
+    row-gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+
+/* Skills Back/front end - Container */
+.skills .skill-items-container .front-end-skills .front-end-title,
+.skills .skill-items-container .back-end-skills .back-end-title {
+    font-family: "Roboto", sans-serif;
+    color: #523d07;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Skills - All Single Skill Title */
+.skills .skill-items-container .skill-item .skill-title {
+    text-transform: capitalize;
+    color: #513c06;
+    margin-bottom: 0.6rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* All Single Skill Bar - Container */
+.skills .skill-items-container .skill-item .skill-bar-container {
+    background: white;
+    margin: 0 auto;
+    border-radius: 1rem;
+    position: relative;
+    margin-bottom: 1rem;
+    height: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+
+/* All Single Skill Bar Container - Colored Div */
+.skills .skill-items-container .skill-item .skill-bar-container .skill-bar {
+    background-color: var(--mainColor);
+    position: absolute;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+
+/* Front-end 1 and back-end 2 - Skill Bar Colored Div */
+.skills .skill-items-container .front-end-skills .front-1 .skill-bar-container .skill-bar,
+.skills .skill-items-container .back-end-skills .back-2 .skill-bar-container .skill-bar {
+    width: 90%;
+}
+
+/* Front-end 2 and back-end 3 - Skill Bar Colored Div */
+.skills .skill-items-container .front-end-skills .front-2 .skill-bar-container .skill-bar,
+.skills .skill-items-container .back-end-skills .back-3 .skill-bar-container .skill-bar {
+    width: 80%;
+}
+
+/* Front-end 3 and back-end 1 - Skill Bar Colored Div */
+.skills .skill-items-container .front-end-skills .front-3 .skill-bar-container .skill-bar,
+.skills .skill-items-container .back-end-skills .back-1 .skill-bar-container .skill-bar {
+    width: 70%;
+}
+
+
+/* All skill's bar container - percent text */
+.skills .skill-items-container .skill-bar-container .skill-percent {
+    position: absolute;
+    text-align: end;
+    bottom: 20px;
+}
+
+/* Front-end 1 and back-end 2 - Skill Bar percent text */
+.skills .skill-items-container .front-end-skills .front-1 .skill-bar-container .skill-percent,
+.skills .skill-items-container .back-end-skills .back-2 .skill-bar-container .skill-percent {
+    width: 93%;
+}
+
+/* Front-end 2 and back-end 3 - Skill Bar percent text */
+.skills .skill-items-container .front-end-skills .front-2 .skill-bar-container .skill-percent,
+.skills .skill-items-container .back-end-skills .back-3 .skill-bar-container .skill-percent {
+    width: 83%;
+}
+
+/* Front-end 3 and back-end 1 - Skill Bar percent text */
+.skills .skill-items-container .front-end-skills .front-3 .skill-bar-container .skill-percent,
+.skills .skill-items-container .back-end-skills .back-1 .skill-bar-container .skill-percent {
+    width: 73%;
+}

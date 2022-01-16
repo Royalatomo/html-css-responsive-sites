@@ -1,0 +1,82 @@
+/* Hero - Area */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fffaeb;
+    justify-content: center;
+}
+
+
+/* Hero (Info, Img) - Container */
+.hero .hero-container {
+    height: calc(100vh - 5rem);
+    display: grid;
+    place-content: center;
+    min-height: 470px;
+}
+
+
+/* Hero Info - Container */
+.hero .hero-container .hero-info {
+    margin: auto 0;
+}
+
+
+/* Hero Info - Underline */
+.hero .hero-container .hero-info .underline {
+    margin-bottom: 0.8rem;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: var(--mainColor);
+    border-radius: 4px;
+}
+
+
+/* Hero Info - Heading */
+.hero .hero-container .hero-info .heading {
+    color: hsl(209, 61%, 16%);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.3rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+}
+
+
+/* Hero Info - Small Heading */
+.hero .hero-container .hero-info .small-heading p {
+    color: hsl(210, 22%, 49%);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Hero Info - Social Icons Container */
+.hero .hero-container .hero-info .hero-social-icons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 280px;
+    margin-top: 1.5rem;
+}
+
+/* Hero Info - Social Icons */
+.hero .hero-container .hero-info .hero-social-icons a {
+    font-size: 2rem;
+    color: hsl(209, 61%, 16%);
+    transition: var(--transition);
+}
+
+.hero .hero-container .hero-info .hero-social-icons a:hover {
+    color: var(--mainColor);
+}
+
+
+/* Hero Img - Container */
+.hero .hero-container .hero-img {
+    display: none;
+}

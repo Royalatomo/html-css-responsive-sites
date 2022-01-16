@@ -1,0 +1,61 @@
+/* Contact - Main Area */
+.contact-area {
+    height: calc(100vh - 16rem);
+    background: hsl(45, 100%, 96%);
+    padding: 5rem 2rem;
+}
+
+
+/* Section Heading Container */
+.contact-area .section-heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Section Heading */
+.contact-area .section-heading .section-heading-text {
+    font-size: 3rem !important;
+}
+
+/* Contact Text Container */
+.contact-area .contact-text {
+    color: hsl(210, 22%, 49%);
+    word-spacing: 0.1rem;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact Individual Text */
+.contact-area .contact-text p {
+    margin-bottom: 1rem;
+}
+
+/* Contact Individual Text - Links */
+.contact-area .contact-text p a {
+    color: hsl(42deg 60% 50%);
+    transition: var(--transition);
+}
+
+.contact-area .contact-text p a:hover {
+    color: rgb(26, 64, 98);
+}
+
+
+/* NavBar */
+.stick-nav {
+    position: relative;
+}
+
+/* Footer */
+.footer {
+    height: 11rem;
+}
+
+@media screen and (max-width: 350px) {
+
+    /* Section Heading */
+    .contact-area .section-heading .section-heading-text {
+        font-size: 2rem !important;
+    }
+}

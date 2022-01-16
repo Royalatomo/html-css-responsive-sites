@@ -1,0 +1,130 @@
+/* Blogs - Area */
+.blogs {
+    background-color: hsl(210, 36%, 96%);
+    text-align: center;
+    padding: 5rem 0;
+}
+
+
+/* Blog Items Container */
+.blogs .blog-container {
+    text-align: left;
+    padding: 1.5rem;
+    display: grid;
+    row-gap: 3rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 3rem;
+}
+
+/* Blog Container - Single Item */
+.blogs .blog-container .blog-item {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 60%);
+    position: relative;
+    height: 26rem;
+    background-color: white;
+}
+
+
+/* Blog Single Item - Blog Img, Info */
+.blogs .blog-container .blog-item .blog-front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Blog Single Item - Blog Img */
+.blogs .blog-container .blog-item .blog-front .blog-img {
+    width: 100%;
+    object-fit: cover;
+    height: 13rem;
+}
+
+/* Blog Single Item - Blog Info */
+.blogs .blog-container .blog-item .blog-front .blog-info {
+    padding: 1rem;
+}
+
+/* Blog Single Item - Blog Info Title */
+.blogs .blog-container .blog-item .blog-front .blog-info .blog-title {
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+/* Blog Single Item - Blog Info Text */
+.blogs .blog-container .blog-item .blog-front .blog-info .blog-text {
+    font-size: 0.9rem;
+    word-spacing: 0.1rem;
+    margin-bottom: 1.4rem;
+    color: hsl(210, 22%, 49%);
+}
+
+/* Blog Single Item - Blog Info (Author, Read time) */
+.blogs .blog-container .blog-item .blog-front .blog-info .blog-foot {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* Blog Single Item - Blog Info Author */
+.blogs .blog-container .blog-item .blog-front .blog-info .blog-foot .blog-author {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Blog Single Item - Blog Info Read time */
+.blogs .blog-container .blog-item .blog-front .blog-info .blog-foot .read-time {
+    color: var(--mainColor);
+    text-transform: uppercase;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+
+/* Blog Single Item - Blog Read More Container */
+.blogs .blog-container .blog-item .blog-back {
+    visibility: hidden;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    transition: var(--transition);
+}
+
+.blogs .blog-container .blog-item:hover .blog-back {
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Blog Single Item - Blog Read More */
+.blogs .blog-container .blog-item .blog-back .read-more {
+    color: #334a5a;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    background: var(--mainColor);
+    font-weight: bolder;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 1px 1px 20px #ededed;
+    visibility: hidden;
+}
+
+.blogs .blog-container .blog-item:hover .blog-back .read-more {
+    visibility: visible;
+}

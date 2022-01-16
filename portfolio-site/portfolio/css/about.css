@@ -1,0 +1,60 @@
+/* About (Img, Info) - Container */
+.about .about-container {
+    display: grid;
+    row-gap: 3rem;
+    margin: 5rem auto;
+}
+
+
+/* About Img - Container */
+.about .about-container .about-img {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* About Img */
+.about .about-container .about-img img {
+    width: 100%;
+    border-radius: 0.7rem;
+    max-width: 21rem;
+    border: 2px solid var(--mainColor);
+}
+
+
+/* About Info - Container */
+.about .about-container .about-info {
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+/* About Info - Heading */
+.about .about-container .about-info .heading {
+    color: hsl(209, 61%, 16%);
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0.7rem;
+}
+
+/* About Info - Underline */
+.about .about-container .about-info .underline {
+    background: var(--mainColor);
+    width: 5rem;
+    height: 0.25rem;
+    margin-bottom: 1.25rem;
+}
+
+
+/* About Info - Description */
+.about .about-container .about-info .description {
+    color: hsl(210, 22%, 49%);
+    line-height: 1.7;
+}
+
+/* About Info - Description Single Para*/
+.about .about-container .about-info .description p {
+    margin-bottom: 1.25rem;
+    font-size: 0.9rem;
+}

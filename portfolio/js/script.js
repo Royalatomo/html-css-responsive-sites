@@ -1,10 +1,12 @@
 
+// Make Navmenu visible (mobile)
 document.getElementsByClassName('nav-menu')[0].style.display = 'grid'
 
 
 
 const element = document.getElementsByClassName('nav-menu')[0];
 
+// Make Navbar visible/ Toggle Menu Bar
 const showMenu = () => {
     const height = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
     if(height < 510){
@@ -16,6 +18,7 @@ const showMenu = () => {
     }
 }
 
+// Toggle Menu Bar
 const toggelMenu = () => {
     const isActive = element.className.split(' ')[1] == "showMenu";
     if(isActive){
@@ -25,10 +28,12 @@ const toggelMenu = () => {
     }
 }
 
+// Hide Menu Bar
 const closeMenu = () => {
     element.classList.remove('showMenu')
 }
 
+// Hide Navbar on clicking link
 let links = document.getElementsByClassName('nav-icon-clickable');
 for (let i=0; i<=links.length; i++){
     try{

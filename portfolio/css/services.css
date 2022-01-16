@@ -1,0 +1,92 @@
+/* Services - Area */
+.services {
+    background-color: hsl(210, 36%, 96%);
+}
+
+/* Services (Item, Heading) - Container */
+.services .services-container {
+    padding: 5rem 1rem;
+}
+
+/* Services Heading - Container */
+.services .services-container .section-heading {
+    text-align: -webkit-center;
+    margin-bottom: 4rem;
+}
+
+/* Service Items - Container */
+.services .services-container .service-item-container {
+    padding: 0 1rem;
+}
+
+/* Service Items Container- Single Item */
+.services .services-container .service-item-container .service-item {
+    background: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    border-radius: 0.5rem;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    transition: var(--transition);
+}
+
+.services .services-container .service-item-container .service-item:hover {
+    background-color: var(--mainColor);
+}
+
+/* Service Item - Service Icon */
+.services .services-container .service-item-container .service-item .service-icon {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    color: hsl(209, 61%, 16%);
+    transition: var(--transition);
+}
+
+.services .services-container .service-item-container .service-item:hover .service-icon {
+    color: white;
+}
+
+/* Service Item - Service Title */
+.services .services-container .service-item-container .service-item .title {
+    text-transform: capitalize;
+    letter-spacing: 0.3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: hsl(209, 61%, 16%);
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+    transition: var(--transition);
+}
+
+.services .services-container .service-item-container .service-item:hover .title {
+    color: white;
+}
+
+/* Service Item - Service Underline */
+.services .services-container .service-item-container .service-item .underline {
+    background: var(--mainColor);
+    width: 4rem;
+    height: 0.15rem;
+    margin-bottom: 1.25rem;
+    margin: 0 auto;
+    margin-bottom: 1.3rem;
+    transition: var(--transition);
+}
+
+.services .services-container .service-item-container .service-item:hover .underline {
+    background: white;
+}
+
+/* Service Item - Service Description */
+.services .services-container .service-item-container .service-item .text {
+    color: hsl(210, 22%, 49%);
+    line-height: 1.7;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.services .services-container .service-item-container .service-item:hover .text {
+    color: white;
+}

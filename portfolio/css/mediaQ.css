@@ -1,0 +1,527 @@
+@media screen and (max-width: 330px) {
+
+    /* Hero Info - Social Icons Container */
+    .hero .hero-container .hero-info .hero-social-icons {
+        max-width: 210px;
+    }
+
+    /* Contact Msg Box - Text */
+    .contact .contact-info .description {
+        font-size: 0.88rem;
+    }
+
+    /* Contact Msg Box - Title */
+    .contact .contact-info .contact-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    /* Hero (Info, Img) - Container */
+    .hero .hero-container {
+        padding-left: 1.7rem;
+    }
+
+    /* Contact - Message Box */
+    .contact .contact-info {
+        padding: 3rem 1rem 12rem 1rem;
+    }
+
+    /* Contact Msg Box - Text */
+    .contact .contact-info .description {
+        max-width: none;
+    }
+
+    /* Achievements Container */
+    .timeline .achievements-container {
+        width: 100%;
+    }
+
+    /* Achievements Container - Right Line Container, Left Line Container*/
+    .timeline .achievements-container .right-container,
+    .timeline .achievements-container .left-container {
+        padding: 3rem 0rem;
+    }
+
+    /* Achievement COntainer - Individual Achievement Description */
+    .timeline .achievements-container .achievement-description {
+        font-size: 0.8rem;
+    }
+
+    /* Achievements Container - Left Line Container*/
+    .timeline .achievements-container .left-container {
+        margin-right: 3.5rem;
+        padding-left: 1.4rem;
+    }
+
+    /* Achievements Container - Right Line Container*/
+    .timeline .achievements-container .right-container {
+        padding-right: 1rem;
+        margin-right: 1.5rem;
+        margin-left: 3.4rem;
+    }
+
+    /* Blog Container - Single Item */
+    .blogs .blog-container .blog-item {
+        min-height: 460px;
+    }
+
+    /* Footer - Social Icons Container */
+    .footer .social-icons {
+        font-size: 1.5rem;
+    }
+
+    /* Footer - Text */
+    .footer .footer-text {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    /* About Me - Main Div */
+    .about-me-area {
+        height: fit-content;
+    }
+
+    /* About-me Text, Contact Text Container */
+    .about-me-area .about-me-text, .contact-area .section-heading .contact-text {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-height: 600px) {
+
+    /* Contact - Main Area */
+    .contact-area {
+        height: fit-content;
+    }
+}
+
+
+@media screen and (max-height: 510px) {
+
+    /* Navbar (Link Menu) - Container */
+    .navbar .nav-menu {
+        padding-top: 0;
+        min-height: 0;
+        height: fit-content;
+        padding-top: 1rem;
+    }
+
+    /* Showing Nav Menu */
+    .navbar .showMenu {
+        position: relative;
+    }
+
+    /* Nav Menu - Cross Button Container */
+    .navbar .nav-menu .nav-menu-close {
+        display: none;
+    }
+
+    /* Nav Menu - Links Container */
+    .navbar .nav-menu .nav-link-container {
+        margin-bottom: 0;
+        line-height: 2;
+    }
+
+    /* NavBar */
+    .stick-nav {
+        position: relative;
+    }
+
+}
+
+@media screen and (max-height: 550px) {
+
+    /* Navbar (Link Menu) - Container */
+    .navbar .nav-menu {
+        padding-top: 3rem;
+    }
+
+    /* Navbar - Link Container */
+    .navbar .navtop .navtop-link-container {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-height: 625px) {
+
+    /* About Me - Main Div */
+    .about-me-area {
+        height: fit-content;
+    }
+}
+
+
+@media screen and (max-width: 290px) {
+
+    /* Navbar (logo, link) - container */
+    .navbar .navtop {
+        padding: 1rem;
+    }
+
+}
+
+
+@media screen and (min-width: 600px) {
+
+    /* About Info - Description Single Para*/
+    .about .about-container .about-info .description p {
+        font-size: 1rem;
+    }
+
+    /* Timeline - Section Heading */
+    .timeline .head .timeline-section-title {
+        font-size: 2.5rem;
+    }
+
+    /* Achievements - Individual Achievement's Year */
+    .timeline .achievements-container .achievement-year {
+        font-size: 1.5rem;
+        margin-bottom: 0.7rem;
+    }
+
+    /* Achievement COntainer - Individual Achievement Description */
+    .timeline .achievements-container .achievement-description {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    /* Achievements - Individual Achievement Number */
+    .timeline .achievements-container .left-container .number-left,
+    .timeline .achievements-container .right-container .number-right {
+        font-size: 1.4rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+}
+
+@media screen and (min-width: 670px) {
+
+    /* Global */
+    .section-heading-text {
+        font-size: 2.3rem;
+    }
+
+    .section-underline {
+        width: 5.3rem;
+    }
+
+    /* Work - Img Container */
+    .works .works-container .work-items-container {
+        gap: 2rem 2rem;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+    }
+
+    /* Work Heading - Description */
+    .works .works-container .section-heading .description {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    /* Blog Items Container */
+    .blogs .blog-container, .project-container {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+
+    /* Service Items - Container */
+    .services .services-container .service-item-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 740px) {
+
+    /* Service Item - Service Description */
+    .services .services-container .service-item-container .service-item .text {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    /* Navbar - Area */
+    .navbar {
+        background-color: #fffaeb;
+    }
+
+    /* Navbar - Link Container */
+    .navbar .navtop .navtop-link-container {
+        display: flex;
+    }
+
+    /* Navbar - Mobile Menu Icon Container */
+    .navbar .navtop .hamburger {
+        display: none;
+    }
+
+    /* Navbar (Link Menu) - Container */
+    .navbar .nav-menu {
+        display: none !important;
+    }
+
+    /* Navbar - Logo */
+    .navbar .navtop .logo {
+        width: 45%;
+    }
+
+    /* Skills (Front/Back end) - Container */
+    .skills .skill-items-container {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3rem;
+        row-gap: 0;
+    }
+
+    /* Skills - Section Heading */
+    .skills .head .skills-section-title {
+        font-size: 2.5rem;
+    }
+
+    /* Skills Back end - Container */
+    .skills .skill-items-container .back-end-skills .back-end-title {
+        font-size: 1.6rem;
+    }
+
+    /* Skills - All Single Skill Title */
+    .skills .skill-items-container .skill-item .skill-title {
+        font-size: 1rem;
+        margin-top: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 860px) {
+
+    /* Contact Msg Box - Title */
+    .contact .contact-info .contact-title {
+        font-size: 2.5rem;
+    }
+
+    /* Contact Msg Box - Underline */
+    .contact .contact-info .underline {
+        width: 6rem;
+    }
+
+    /* Contact Msg Box - Text */
+    .contact .contact-info .description {
+        max-width: none;
+    }
+}
+
+
+@media screen and (min-width: 960px) {
+
+    /* Global */
+    .headingButton {
+        padding: 0.5rem 0.9rem;
+    }
+
+    /* Hero Info - Heading */
+    .hero .hero-container .hero-info .heading {
+        font-size: 4rem;
+    }
+
+    /* Hero Info - Small Heading */
+    .hero .hero-container .hero-info .small-heading p {
+        font-size: 1rem;
+    }
+
+    /* Hero (Info, Img) - Container */
+    .hero .hero-container {
+        grid-template-columns: 1fr 1fr;
+        width: 85%;
+        min-height: 530px;
+    }
+
+    /* Hero Img - Container */
+    .hero .hero-container .hero-img {
+        display: block;
+        position: relative;
+        text-align: right;
+        width: 87%;
+    }
+
+    /* Hero Img - Outline */
+    .hero .hero-container .hero-img::before {
+        content: "";
+        position: absolute;
+        width: 70%;
+        height: 97%;
+        border: 0.25rem solid var(--mainColor);
+        top: 2rem;
+        right: -2rem;
+        border-radius: 0.5rem;
+        min-width: 270px;
+    }
+
+    /* Hero Img - Main Image */
+    .hero .hero-container .hero-img img {
+        width: 70%;
+        border-radius: 0.7rem;
+        min-width: 270px;
+        position: relative;
+    }
+
+    /* About Info - Container */
+    .about .about-container .about-info {
+        margin: auto 0;
+        max-width: 700px;
+    }
+
+    /* About (Img, Info) - Container */
+    .about .about-container {
+        grid-template-columns: 1fr 1.3fr;
+    }
+
+    /* About Info - Heading */
+    .about .about-container .about-info .heading {
+        font-size: 3rem;
+    }
+
+
+    /* Service Items - Container */
+    .services .services-container .service-item-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+    }
+
+    /* Service Items Container- Single Item */
+    .services .services-container .service-item-container .service-item {
+        padding: 4rem 2rem;
+        max-width: 420px;
+    }
+
+    /* Work - Img Container */
+    .works .works-container .work-items-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1170px;
+    }
+
+}
+
+
+@media screen and (min-width: 1050px) {
+
+    /* Hero (Info, Img) - Container */
+    .hero .hero-container {
+        width: 70%;
+    }
+
+    /* About (Img, Info) - Container */
+    .about .about-container {
+        width: 90%;
+    }
+
+    /* About Img - Outline */
+    .about .about-container .about-img::before {
+        content: '';
+        width: 100%;
+        border-radius: 0.7rem;
+        max-width: 21rem;
+        height: 100%;
+        border: 0.4rem solid var(--mainColor);
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        z-index: -1;
+    }
+
+    /* Skills (Front/Back end) - Container */
+    .skills .skill-items-container {
+        column-gap: 4rem;
+    }
+
+    /* Blog Items Container */
+    .blogs .blog-container, .project-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        column-gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* About (Img, Info) - Container */
+    .about .about-container {
+        width: 80%;
+    }
+
+    /* Service Items - Container */
+    .services .services-container .service-item-container {
+        width: 85%;
+    }
+
+    /* Work - Img Container */
+    .works .works-container .work-items-container {
+        grid-template-areas:
+            "a b b"
+            "a c d";
+    }
+
+    /* Img - 1 */
+    .works .works-container .work-items-container .one {
+        grid-area: a;
+    }
+
+    .works .works-container .work-items-container .one img {
+        height: 100% !important;
+    }
+
+    /* Img - 2 */
+    .works .works-container .work-items-container .two {
+        grid-area: b;
+    }
+
+    /* Img - 3 */
+    .works .works-container .work-items-container .three {
+        grid-area: c;
+    }
+
+    /* Img - 4 */
+    .works .works-container .work-items-container .four {
+        grid-area: d;
+    }
+
+    /* Work Img - Single Item Image */
+    .works .works-container .work-items-container .work-item img {
+        height: 13rem;
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+
+    /* Navbar (logo, link) - container */
+    .navbar .navtop {
+        justify-content: space-evenly;
+    }
+
+    /* Navbar - Link Container */
+    .navbar .navtop .navtop-link-container {
+        list-style: none;
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+        align-items: center;
+        text-transform: capitalize;
+        text-align: center;
+        width: 100%;
+        letter-spacing: 0.2rem;
+        column-gap: 2rem;
+        max-width: 600px;
+    }
+
+    /* Navbar - Logo */
+    .navbar .navtop .logo {
+        width: 30%;
+    }
+}

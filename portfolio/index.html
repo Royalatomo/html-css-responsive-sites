@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/hero.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/services.css">
+    <link rel="stylesheet" href="/css/works.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/skills.css">
+    <link rel="stylesheet" href="/css/timeline.css">
+    <link rel="stylesheet" href="/css/blogs.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/mediaQ.css">
+
+    <!-- Title -->
+    <title>Document</title>
+</head>
+
+<body onload="displayGrid()">
+
+    <!-- NavBar -->
+    <div class="navbar">
+
+        <!-- Navbar (logo, link) - container -->
+        <div class="navtop">
+
+            <!-- Navbar - Logo -->
+            <div class="logo">
+                <a href="/">
+                    <h1>John <span>Doe</span></h1>
+                </a>
+            </div>
+
+            <!-- Navbar - Mobile Menu Icon Container -->
+            <div class="hamburger">
+                <i onclick="showMenu()" class="fas fa-bars"></i>
+            </div>
+
+            <!-- Navbar - Link Container -->
+            <ul class="navtop-link-container">
+
+                <!-- Navbar - Links -->
+                <li class="navtop-link"><a href="/">home</a></li>
+                <li class="navtop-link"><a href="/html/about.html">about</a></li>
+                <li class="navtop-link"><a href="/html/projects.html">projects</a></li>
+                <li class="navtop-link"><a href="/html/contact.html">contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Navbar (Link Menu) - Container -->
+        <div class="nav-menu">
+
+            <!-- Nav Menu - Cross Button Container -->
+            <div class="nav-menu-close"><i onclick="closeMenu()" class="fas fa-times"></i></div>
+
+            <!-- Nav Menu - Links Container -->
+            <ul class="nav-link-container">
+
+                <!-- Nav Menu - Links -->
+                <li class="nav-link"><a href="/">home</a=>
+                </li>
+                <li class="nav-link"><a href="/html/about.html">about</a></li>
+                <li class="nav-link"><a href="/html/projects.html">projects</a></li>
+                <li class="nav-link"><a href="/html/contact.html">contact</a></li>
+            </ul>
+
+            <!-- Nav Menu - Social Icons Container -->
+            <div class="social-icons">
+
+                <!-- Nav Menu - Icons -->
+                <a class="nav-icon-clickable" href="#"><i class="fab fa-facebook"></i></a>
+                <a class="nav-icon-clickable" href="#"><i class="fab fa-linkedin"></i></a>
+                <a class="nav-icon-clickable" href="#"><i class="fab fa-squarespace"></i></a>
+                <a class="nav-icon-clickable" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="nav-icon-clickable" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Hero -->
+    <div class="hero">
+
+        <!-- Hero (Info, Img) - Container -->
+        <div class="hero-container">
+
+            <!-- Hero Info - Underline, heading, sub-heading, hire-button, social icons -->
+            <div class="hero-info">
+
+                <div class="underline"></div>
+                <h1 class="heading">I'm John</h1>
+                <div class="small-heading">
+                    <p>Freelance Web & Mobile UI/UX Designer</p>
+                </div>
+                <a href="#" class="headingButton hire-button">hire me</a>
+
+                <div class="hero-social-icons">
+                    <!-- Icons -->
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-squarespace"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Hero Image -->
+            <div class="hero-img">
+                <img src="/img/hero-img.jpeg" alt="hero image">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About -->
+    <div class="about">
+
+        <!-- About (Img, Info) - Container -->
+        <div class="about-container">
+
+            <!-- About Img -->
+            <div class="about-img">
+                <img src="/img/about-img.jpeg" alt="about image">
+            </div>
+
+            <!-- About Info -->
+            <div class="about-info">
+                <h1 class="heading">about</h1>
+                <div class="underline"></div>
+                <div class="description">
+                    <!-- Para 1 -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae, eum maiores est enim earum
+                        fugiat aspernatur. Fuga qui iste amet reiciendis possimus rerum omnis recusandae molestias error
+                        consequuntur, doloribus inventore reprehenderit officiis. Dolore aut, repellendus eius fugiat
+                        numquam cumque.</p>
+                    <!-- Para 2 -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae, eum maiores est enim earum
+                        fugiat aspernatur. Fuga qui iste amet reiciendis possimus rerum omnis recusandae molestias error
+                        consequuntur, doloribus inventore reprehenderit officiis. Dolore aut, repellendus eius fugiat
+                        numquam cumque.</p>
+                </div>
+
+                <!-- Button -->
+                <a href="#" class="headingButton about-button">about me</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Services -->
+    <div class="services">
+
+        <!-- Services (Item, Heading) - Container -->
+        <div class="services-container">
+
+            <!-- Heading -->
+            <div class="section-heading">
+                <h1 class="section-heading-text">services</h1>
+                <div class="section-underline"></div>
+            </div>
+
+            <!-- Service Items -->
+            <div class="service-item-container">
+                <!-- Item -->
+                <div class="service-item">
+                    <i class="fas fa-code service-icon"></i>
+                    <div class="title">web development</div>
+                    <div class="underline"></div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corrupti animi
+                        saepe quasi excepturi cupiditate voluptate dolor sed obcaecati vero.</div>
+                </div>
+
+                <!-- Item -->
+                <div class="service-item">
+                    <i class="fab fa-sketch service-icon"></i>
+                    <div class="title">web desgin</div>
+                    <div class="underline"></div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corrupti animi
+                        saepe quasi excepturi cupiditate voluptate dolor sed obcaecati vero.</div>
+                </div>
+
+                <!-- Item -->
+                <div class="service-item">
+                    <i class="fab fa-android service-icon"></i>
+                    <div class="title">app design</div>
+                    <div class="underline"></div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corrupti animi
+                        saepe quasi excepturi cupiditate voluptate dolor sed obcaecati vero.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Works -->
+    <div class="works">
+
+        <!-- Work (Heading, Img) - Container -->
+        <div class="works-container">
+
+            <!-- Work - Heading Container -->
+            <div class="section-heading">
+                <h1 class="section-heading-text">latest works</h1>
+                <div class="section-underline"></div>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium repudiandae cupiditate ea
+                    facilis incidunt, non sapiente! Debitis magnam, earum assumenda obcaecati cum quaerat facere ratione
+                    molestiae dignissimos aliquid blanditiis architecto voluptates delectus voluptate animi nulla! Autem
+                    explicabo perspiciatis officia ea.
+                </p>
+            </div>
+
+            <!-- Work - Img Container -->
+            <div class="work-items-container">
+
+                <!-- Item 1 -->
+                <a href="#" class="one">
+                    <div class="work-item">
+                        <img src="/img/project-1.jpeg" alt="work image">
+
+                        <!-- Item Info -->
+                        <div class="work-info">
+                            <h4>project title</h4>
+                            <p>client name</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Item 2 -->
+                <a href="#" class="two">
+                    <div class="work-item">
+                        <img src="/img/project-2.jpeg" alt="work image">
+
+                        <!-- Item Info -->
+                        <div class="work-info">
+                            <h4>project title</h4>
+                            <p>client name</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Item 3 -->
+                <a href="#" class="three">
+                    <div class="work-item">
+                        <img src="/img/project-3.jpeg" alt="work image">
+
+                        <!-- Item Info -->
+                        <div class="work-info">
+                            <h4>project title</h4>
+                            <p>client name</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Item 4 -->
+                <a href="#" class="four">
+                    <div class="work-item">
+                        <img src="/img/project-4.jpeg" alt="work image">
+
+                        <!-- Item Info -->
+                        <div class="work-info">
+                            <h4>project title</h4>
+                            <p>client name</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Contact -->
+    <div class="contact">
+
+        <!-- Contact - Video Player -->
+        <video autoplay muted loop class="video-container">
+            <source src="/img/connect.mp4" type="video/mp4">
+            Sorry, your browser does not support embedded videos
+        </video>
+
+        <!-- Contact - Message Box -->
+        <div class="contact-info">
+            <h4 class="contact-title">let's get in touch</h4>
+            <div class="underline"></div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ratione perferendis
+                exercitationem sit. Beatae eius commodi officiis rem soluta ratione dignissimos quisquam tempore
+                laudantium, porro vitae cupiditate dicta magni quas corrupti aperiam, rerum minus odio totam repellendus
+                delectus nostrum veniam!</div>
+            <a href="#" class="headingButton contact-button">contact me</a>
+        </div>
+    </div>
+
+
+    <!-- Skills -->
+    <div class="skills">
+
+        <!-- Section Heading -->
+        <div class="head">
+            <h1 class="section-heading-text">skills</h1>
+            <div class="section-underline"></div>
+        </div>
+
+        <!-- Front/Back Skills Container -->
+        <div class="skill-items-container">
+
+            <!-- Front-end Skills Container -->
+            <div class="front-end-skills">
+
+                <!-- Container Heading -->
+                <h3 class="front-end-title">Front End</h3>
+
+                <!-- Front-end Skill Items -->
+                <div class="skill-item front-1">
+                    <p class="skill-title">HTML/CSS</p>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar"></div>
+                        <div class="skill-percent">90%</div>
+                    </div>
+                </div>
+
+                <div class="skill-item front-2">
+                    <p class="skill-title">javascript</p>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar"></div>
+                        <div class="skill-percent">80%</div>
+                    </div>
+                </div>
+
+                <div class="skill-item front-3">
+                    <p class="skill-title">react</p>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar"></div>
+                        <div class="skill-percent">70%</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Back-end Skills Container -->
+            <div class="back-end-skills">
+
+                <!-- Container Heading -->
+                <h3 class="front-end-title">Back End</h3>
+
+                <!-- Back-end Skill Items -->
+                <div class="skill-item back-1">
+                    <p class="skill-title">Python</p>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar"></div>
+                        <div class="skill-percent">70%</div>
+                    </div>
+                </div>
+
+                <div class="skill-item back-2">
+                    <p class="skill-title">Node</p>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar"></div>
+                        <div class="skill-percent">90%</div>
+                    </div>
+                </div>
+
+                <div class="skill-item back-3">
+                    <p class="skill-title">Mongo DB</p>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar"></div>
+                        <div class="skill-percent">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- timeline -->
+    <div class="timeline">
+
+        <!-- Section Heading -->
+        <div class="head">
+            <h1 class="section-heading-text">timeline</h1>
+            <div class="section-underline"></div>
+        </div>
+
+        <!-- Achievements Container -->
+        <div class="achievements-container">
+
+            <!-- Right Line - Container -->
+            <div class="right-container first-container">
+                <p class="achievement-year">2022</p>
+                <p class="achievement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                    consequuntur voluptates tempore numquam? Quidem incidunt fugit quasi autem, ea excepturi.</p>
+                <p class="number-right">1</p>
+            </div>
+
+            <!-- Left Line - Container -->
+            <div class="left-container">
+                <p class="achievement-year">2021</p>
+                <p class="achievement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                    consequuntur voluptates tempore numquam? Quidem incidunt fugit quasi autem, ea excepturi.</p>
+                <p class="number-left">2</p>
+            </div>
+
+            <!-- Right Line - Container -->
+            <div class="right-container">
+                <p class="achievement-year">2020</p>
+                <p class="achievement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                    consequuntur voluptates tempore numquam? Quidem incidunt fugit quasi autem, ea excepturi.</p>
+                <p class="number-right">3</p>
+            </div>
+
+            <!-- Left Line - Container -->
+            <div class="left-container">
+                <p class="achievement-year">2019</p>
+                <p class="achievement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                    consequuntur voluptates tempore numquam? Quidem incidunt fugit quasi autem, ea excepturi.</p>
+                <p class="number-left">4</p>
+            </div>
+
+            <!-- Right Line - Container -->
+            <div class="right-container">
+                <p class="achievement-year">2018</p>
+                <p class="achievement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                    consequuntur voluptates tempore numquam? Quidem incidunt fugit quasi autem, ea excepturi.</p>
+                <p class="number-right">5</p>
+            </div>
+
+            <!-- Left Line - Container -->
+            <div class="left-container last-container">
+                <p class="achievement-year">2017</p>
+                <p class="achievement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                    consequuntur voluptates tempore numquam? Quidem incidunt fugit quasi autem, ea excepturi.</p>
+                <p class="number-left">6</p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- blogs -->
+    <div class="blogs">
+        <!-- Section Heading -->
+        <div class="head">
+            <h1 class="section-heading-text">blogs</h1>
+            <div class="section-underline"></div>
+        </div>
+
+        <!-- Blogs Container -->
+        <div class="blog-container">
+
+            <!-- Single Blog -->
+            <div class="blog-item">
+
+                <!-- Img, Info - Container -->
+                <div class="blog-front">
+                    <!-- Img -->
+                    <img src="/img/project-1.jpeg" alt="blog image" class="blog-img">
+
+                    <!-- Info -->
+                    <div class="blog-info">
+                        <h4 class="blog-title">article title</h4>
+                        <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nisi ut a est
+                            eum tempora dolorum temporibus voluptatibus! Natus, provident.</p>
+
+                        <!-- Author, Read Time - Container -->
+                        <div class="blog-foot">
+                            <img src="/img/hero-img-small.jpeg" alt="author profile" class="blog-author">
+                            <p class="read-time">7 min read</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Read More Button - Container -->
+                <div class="blog-back">
+                    <a href="#" class="read-more">read more</a>
+                </div>
+            </div>
+
+            <!-- Single Blog -->
+            <div class="blog-item">
+
+                <!-- Img, Info - Container -->
+                <div class="blog-front">
+                    <!-- Img -->
+                    <img src="/img/project-2.jpeg" alt="blog image" class="blog-img">
+
+                    <!-- Info -->
+                    <div class="blog-info">
+                        <h4 class="blog-title">article title</h4>
+                        <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nisi ut a est
+                            eum tempora dolorum temporibus voluptatibus! Natus, provident.</p>
+
+                        <!-- Author, Read Time - Container -->
+                        <div class="blog-foot">
+                            <img src="/img/hero-img-small.jpeg" alt="author profile" class="blog-author">
+                            <p class="read-time">7 min read</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Read More Button - Container -->
+                <div class="blog-back">
+                    <a href="#" class="read-more">read more</a>
+                </div>
+            </div>
+
+            <!-- Single Blog -->
+            <div class="blog-item">
+
+                <!-- Img, Info - Container -->
+                <div class="blog-front">
+                    <!-- Img -->
+                    <img src="/img/project-3.jpeg" alt="blog image" class="blog-img">
+
+                    <!-- Info -->
+                    <div class="blog-info">
+                        <h4 class="blog-title">article title</h4>
+                        <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nisi ut a est
+                            eum tempora dolorum temporibus voluptatibus! Natus, provident.</p>
+
+                        <!-- Author, Read Time - Container -->
+                        <div class="blog-foot">
+                            <img src="/img/hero-img-small.jpeg" alt="author profile" class="blog-author">
+                            <p class="read-time">7 min read</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Read More Button - Container -->
+                <div class="blog-back">
+                    <a href="#" class="read-more">read more</a>
+                </div>
+            </div>
+
+            <!-- Single Blog -->
+            <div class="blog-item">
+
+                <!-- Img, Info - Container -->
+                <div class="blog-front">
+                    <!-- Img -->
+                    <img src="/img/project-4.jpeg" alt="blog image" class="blog-img">
+
+                    <!-- Info -->
+                    <div class="blog-info">
+                        <h4 class="blog-title">article title</h4>
+                        <p class="blog-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nisi ut a est
+                            eum tempora dolorum temporibus voluptatibus! Natus, provident.</p>
+
+                        <!-- Author, Read Time - Container -->
+                        <div class="blog-foot">
+                            <img src="/img/hero-img-small.jpeg" alt="author profile" class="blog-author">
+                            <p class="read-time">7 min read</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Read More Button - Container -->
+                <div class="blog-back">
+                    <a href="#" class="read-more">read more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="social-icons">
+            <a class="social-item" href="#"><i class="fab fa-facebook"></i></a>
+            <a class="social-item" href="#"><i class="fab fa-linkedin"></i></a>
+            <a class="social-item" href="#"><i class="fab fa-squarespace"></i></a>
+            <a class="social-item" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="social-item" href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="footer-text">&copy; 2022 john doe. all rights reserved</p>
+    </div>
+
+
+
+    <!-- custom script -->
+    <script src="/js/script.js"></script>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/a0db2215cb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

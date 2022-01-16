@@ -1,0 +1,169 @@
+/* Navbar - Area */
+.navbar {
+    align-items: center;
+    font-family: var(--headingFont);
+    height: 5rem;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+}
+
+.stick-nav {
+    position: fixed;
+    width: 100%;
+    background: white !important;
+    z-index: 1;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 40%);
+}
+
+
+/* Navbar (logo, link) - container */
+.navbar .navtop {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+
+/* Navbar - Logo */
+.navbar .navtop .logo h1 {
+    font-weight: 600;
+    text-shadow: 1px 4px 0px #00000036;
+    letter-spacing: 0.3rem;
+    color: #222;
+}
+
+/* Navbar - Logo (Colored part) */
+.navbar .navtop .logo span {
+    color: #e9b949;
+}
+
+
+/* Navbar - Mobile Menu Icon Container */
+.navbar .navtop .hamburger {
+    font-size: 2rem;
+    color: var(--mainColor);
+}
+
+.navbar .navtop .hamburger i:hover {
+    cursor: pointer;
+}
+
+
+/* Navbar - Link Container */
+.navbar .navtop .navtop-link-container {
+    display: none;
+    list-style: none;
+    align-items: center;
+    text-transform: capitalize;
+    width: 55%;
+    letter-spacing: 0.2rem;
+    justify-content: space-around;
+}
+
+/* Navbar - Link */
+.navbar .navtop .navtop-link-container .navtop-link a {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: #222;
+    transition: var(--transition);
+}
+
+.navbar .navtop .navtop-link-container .navtop-link a:hover {
+    color: var(--mainColor);
+}
+
+
+/* Navbar (Link Menu) - Container */
+.navbar .nav-menu {
+    display: none;
+    grid-template-rows: 2fr 1fr;
+    place-items: center;
+    position: fixed;
+    background-color: #f1f5f8;
+    min-height: 550px;
+
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    align-items: flex-end;
+    transform: translateX(-100%);
+    transition: transform 0.3s linear;
+    z-index: 2;
+}
+
+/* Showing Nav Menu */
+.navbar .showMenu {
+    transform: translateX(0);
+}
+
+/* Nav Menu - Cross Button Container */
+.navbar .nav-menu .nav-menu-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem 1.5rem;
+    font-size: 3rem;
+    text-align: right;
+    color: #bb2525;
+}
+
+/* Nav Menu - Cross Button */
+.navbar .nav-menu .nav-menu-close i {
+    transition: var(--transition);
+}
+
+.navbar .nav-menu .nav-menu-close i:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+/* Nav Menu - Links Container */
+.navbar .nav-menu .nav-link-container {
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 2rem;
+    line-height: 2.3;
+    letter-spacing: 0.3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+
+}
+
+/* Nav Menu (Links Container) - Links */
+.navbar .nav-menu .nav-link-container .nav-link a {
+    color: #617d98;
+    transition: var(--transition);
+}
+
+.navbar .nav-menu .nav-link-container .nav-link a:hover {
+    color: var(--mainColor);
+}
+
+
+/* Nav Menu - Social Icons Container */
+.navbar .nav-menu .social-icons {
+    align-self: flex-start;
+    margin-top: 2rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    min-width: 250px;
+    max-width: 290px;
+}
+
+/* Nav Menu (Social Icons Container) - Icons */
+.navbar .nav-menu .social-icons i {
+    transition: var(--transition);
+    color: #222;
+}
+
+.navbar .nav-menu .social-icons i:hover {
+    color: var(--mainColor);
+    cursor: pointer;
+}

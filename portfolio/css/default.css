@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainColor: hsl(42, 78%, 60%);
+    --headingFont: "Roboto", sans-serif;
+    background-color: white;
+    --transition: all 0.3s linear;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Main Section Button */
+.headingButton {
+    background: var(--mainColor);
+    color: hsl(43, 86%, 17%);
+    text-transform: uppercase;
+    padding: 0.6rem 0.8rem;
+    letter-spacing: 0.2rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    transition: var(--transition);
+}
+
+.headingButton:hover {
+    background-color: hsl(42deg 78% 60% / 50%);
+}
+
+
+/* Main Section Heading */
+.section-heading-text {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.3rem;
+    text-transform: capitalize;
+    color: hsl(209, 61%, 16%);
+    margin-bottom: 0.8rem;
+}
+
+/* Main Section Heading - Underline*/
+.section-underline {
+    background: var(--mainColor);
+    width: 5rem;
+    height: 0.25rem;
+    margin: 0 auto;
+    margin-bottom: 1.25rem;
+}

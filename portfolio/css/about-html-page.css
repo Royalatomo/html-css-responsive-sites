@@ -1,0 +1,44 @@
+/* About Me - Main Div */
+.about-me-area {
+    height: calc(100vh - 16rem);
+    background: hsl(45, 100%, 96%);
+    padding: 5rem 2rem;
+}
+
+/* Section Heading Container */
+.about-me-area .section-heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Section Heading */
+.about-me-area .section-heading .section-heading-text {
+    font-size: 3rem !important;
+}
+
+/* About-me Text */
+.about-me-area .about-me-text {
+    color: hsl(210, 22%, 49%);
+    word-spacing: 0.1rem;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+    height: 11rem;
+}
+
+/* NavBar */
+.stick-nav {
+    position: relative;
+}
+
+@media screen and (max-width: 350px) {
+
+    /* Section Heading */
+    .about-me-area .section-heading .section-heading-text {
+        font-size: 2rem !important;
+    }
+}
